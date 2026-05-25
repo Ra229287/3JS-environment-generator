@@ -8,7 +8,7 @@ import * as THREE from 'three'
 import { useFrame } from '@react-three/fiber'
 import { useGLTF } from '@react-three/drei'
 import type { GeneratedScene, GeneratedObject, GeneratedLight } from '../types/procedural'
-import { generateTerrain, getHeightAtPosition, type GeneratedTerrain, type TerrainConfig } from '../lib/proceduralTerrain'
+import { generateTerrain, type GeneratedTerrain, type TerrainConfig } from '../lib/proceduralTerrain'
 import { generateTree, generateRock, type GeneratedTree, type GeneratedRock, TREE_TYPES } from '../lib/proceduralVegetation'
 import { getAssetById, getAssetUrl, type AssetInfo } from '../lib/assetLibrary'
 
